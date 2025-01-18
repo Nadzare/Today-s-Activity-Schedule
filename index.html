@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas2||Pemrograman Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="biodata">
+            <div class="foto">
+                <img src="lah.png" alt="" class="huh">
+            </div>
+
+            <div class="identitas">
+                <h2>Nadzare Kafah Alfatiha</h2>
+                <p>Informatics Student</p>
+            </div>
+
+            <div class="quote">
+                <h1>"</h1>
+                <p>Code in logic and Design in imagination <br> biqadri maa nuhibbu nuhabbu</p>
+            </div>
+
+            <div class="fulliden">
+                <table>
+                    <tr>
+                        <td><b>Nama</b></td>
+                        <td>&emsp;</td>
+                        <td>: Nadzare Kafah A</td>
+                    </tr>
+                    <tr>
+                        <td><b>NIM</b></td>
+                        <td>&emsp;</td>
+                        <td>: H1D023014</td>
+                    </tr>
+                    <tr>
+                        <td><b>Fakultas</b></td>
+                        <td>&emsp;</td>
+                        <td>: Teknik</td>
+                    </tr>
+                    <tr>
+                        <td><b>Jurusan</b></td>
+                        <td>&emsp;</td>
+                        <td>: Informatika</td>
+                    </tr>
+                </table>
+
+                <p>Content Creator</p>
+                <p>UI/UX Designer</p>
+                <p>Junior Developer</p>
+            </div>
+        </div>
+
+        <div class="todolist">
+            <div class="judul">
+                <h1>KEGIATAN HARI INI</h1>
+            </div>
+
+
+            <form name="form" onsubmit="return pengujian()">
+                <table>
+                    <tr>
+                        <td class="kolkeg"><input type="text" id="kegiatan" name="kegiatan" placeholder="Masukan Kegiatan"></td>
+                    </tr>
+                    <tr>
+                        <td class="koljam"><input type="time" id="jam" name="jam" placeholder="Masukan Jam"></td>
+                    </tr>
+                    <tr>
+                        <td class="censub"><button onclick="return tabel()" class="submit" id="submit">Tambah Kegiatan!</button></td>
+                    </tr>
+                </table>
+            </form>
+   
+            <table class="tabkegiatan" id="tabkegiatan">
+                <tr>
+                    <th >Nama Kegiatan</th>
+                    <th>Jam Pelaksanaan</th>
+                </tr>
+            </table>
+
+            <input type="reset" name="reset" id="reset" value="Reset Kegiatan" onClick="window.location.reload()">
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

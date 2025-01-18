@@ -1,0 +1,171 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    margin-top: 15px;
+    align-items: center;
+    height: 700px;
+    width: 80%;
+}
+
+.biodata{
+    height: 100%;
+    width: 28%;
+    background-color: rgb(255, 237, 211);
+    border-radius: 25px;
+    float: left;
+}
+.todolist{
+    height: 100%;
+    width: 70%;
+    background-color: rgb(255, 237, 211);
+    border-radius: 25px;
+    float: right;
+}
+.foto{
+    height: 250px;
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+}
+.huh{
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.judul h1{
+    text-align: center;
+    color: #ff8400;
+    margin-top: 25px;
+}
+.identitas h2{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.identitas p{
+    text-align: center;
+    margin-top: 5px;
+    color:#ff8400;
+    font-weight: medium;
+}
+.quote{
+    text-align: center;
+    margin-top: 20px;
+}
+.quote h1{
+    font-size: 50px;
+    color:  rgb(239, 170, 73);
+}
+.quote p{
+    margin-top: -25px;
+    color:  rgb(67, 67, 67);
+}
+.biodata .fulliden{
+    width: 80%;
+    height: 215px;
+    background-color:  #ffd7ad;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.biodata .fulliden table{
+   margin: auto;
+   padding-top: 15px;
+   font-size: 17px;
+}
+.biodata .fulliden p{
+    margin: auto;
+    margin-top: 8px;
+    font-size: 15px;
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+    background-color:  #ff8400;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+#kegiatan{
+    width: 700px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 200, 148);
+    padding: 5px;
+    line-break: normal;
+}
+#jam{
+    width: 700px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 200, 148);
+    padding: 5px;
+    line-break: normal;
+}
+.censub{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.submit{
+    background-color: #ff8400;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px
+}
+
+
+#tabkegiatan {
+    margin: auto;
+    margin-top: 35px;
+    width: 80%;
+    border-collapse: collapse;
+
+}
+#tabkegiatan tr th{
+    border: 2px solid #ffffff;
+}
+
+th {
+    background-color: #ffab52;
+    color: white;
+    padding: 10px;
+}
+
+.td4 {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th,
+.td4 {
+    border: 1px solid #ddd;
+}
+
+#reset{
+    display: flex;
+    margin: auto;
+    height: 35px;
+    background-color: #e70000;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: auto;
+    margin-top: 35px;
+}
